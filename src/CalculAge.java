@@ -31,6 +31,7 @@ public class CalculAge {
         check("25/07/0000");
         check("25,07,2020");
 
+        //Autre exemple
         Calendar cal = Calendar.getInstance();
         System.out.println(cal.getTime().toString());
 
